@@ -20,6 +20,3 @@ class CheckOutPage:
         self.driver.find_element(By.XPATH, self.button_proceed_xpath).click()
 
 
-    def Click_Proceed2(self):
-        self.driver.find_element(By.XPATH, self.button_proceed2_xpath).click()
-
