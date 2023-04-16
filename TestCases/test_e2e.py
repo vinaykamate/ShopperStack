@@ -43,7 +43,7 @@ class Test_002_e2e:
         self.paymentpage.Click_Proceed()
         time.sleep(2)
         self.message = self.driver.find_element(By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]").text
-        if "Createdf" in self.message:
+        if "Created" in self.message:
             assert True == True
             self.logger.info("-----Order Created Successful-----")
         else:
